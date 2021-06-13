@@ -20,6 +20,8 @@ limitations under the License.
 
 # Gamma Lanczos Sum
 
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+
 > Calculate the Lanczos sum for the approximation of the [gamma function][gamma-function].
 
 <section class="intro">
@@ -140,6 +142,18 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
+
+[npm-image]: http://img.shields.io/npm/v/@stdlib/math-base-special-gamma-lanczos-sum.svg
+[npm-url]: https://npmjs.org/package/@stdlib/math-base-special-gamma-lanczos-sum
+
+[test-image]: https://github.com/stdlib-js/math-base-special-gamma-lanczos-sum/actions/workflows/test.yml/badge.svg
+[test-url]: https://github.com/stdlib-js/math-base-special-gamma-lanczos-sum/actions/workflows/test.yml
+
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base-special-gamma-lanczos-sum/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/math-base-special-gamma-lanczos-sum?branch=main
+
+[dependencies-image]: https://img.shields.io/david/stdlib-js/math-base-special-gamma-lanczos-sum
+[dependencies-url]: https://david-dm.org/stdlib-js/math-base-special-gamma-lanczos-sum/main
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 

@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-gamma-lanczos-sum",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.1",
   "description": "Calculate the Lanczos sum for the approximation of the gamma function.",
   "license": "Apache-2.0 AND BSL-1.0",
   "author": {

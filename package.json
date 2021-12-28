@@ -39,7 +39,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@stdlib/array-linspace": "^0.0.x",
+    "@stdlib/array-base-linspace": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
     "@stdlib/constants-float64-eps": "^0.0.x",
     "@stdlib/constants-float64-gamma-lanczos-g": "^0.0.x",

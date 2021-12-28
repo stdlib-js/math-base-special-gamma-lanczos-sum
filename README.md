@@ -96,16 +96,14 @@ v = gammaLanczosSum( NaN );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var linspace = require( '@stdlib/array-linspace' );
+var linspace = require( '@stdlib/array-base-linspace' );
 var gammaLanczosSum = require( '@stdlib/math-base-special-gamma-lanczos-sum' );
 
 var x = linspace( -10.0, 10.0, 100 );
-var v;
-var i;
 
+var i;
 for ( i = 0; i < x.length; i++ ) {
-    v = gammaLanczosSum( x[ i ] );
-    console.log( 'x: %d, f(x): %d', x[ i ], v );
+    console.log( 'x: %d, f(x): %d', x[ i ], gammaLanczosSum( x[ i ] ) );
 }
 ```
 
@@ -147,11 +145,6 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
-## License
-
-See [LICENSE][stdlib-license].
-
-
 ## Copyright
 
 Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
@@ -186,8 +179,6 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib]: https://github.com/stdlib-js/stdlib
 
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-gamma-lanczos-sum/main/LICENSE
 
 [@stdlib/constants/float64/gamma-lanczos-g]: https://github.com/stdlib-js/constants-float64-gamma-lanczos-g
 

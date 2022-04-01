@@ -1,0 +1,36 @@
+{
+  "name": "@stdlib/math-base-special-gamma-lanczos-sum",
+  "version": "0.0.0",
+  "description": "Calculate the Lanczos sum for the approximation of the gamma function.",
+  "license": "Apache-2.0 AND BSL-1.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-base-special-gamma-lanczos-sum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "special function",
+    "special",
+    "function",
+    "gamma",
+    "lanczos",
+    "approx",
+    "approximation",
+    "polynomial",
+    "rational",
+    "factorial",
+    "number"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}

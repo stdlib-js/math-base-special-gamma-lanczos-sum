@@ -30,10 +30,14 @@ The [Lanczos approximation][lanczos-approximation] for the [gamma function][gamm
 
 <!-- <equation class="equation" label="eq:lanczos_approximation" align="center" raw="\Gamma ( n ) = \frac{(n+g-0.5)^{n-0.5}}{e^{n+g-0.5}} L_g(n)" alt="Lanczos approximation for gamma function."> -->
 
-<div class="equation" align="center" data-raw-text="\Gamma ( n ) = \frac{(n+g-0.5)^{n-0.5}}{e^{n+g-0.5}} L_g(n)" data-equation="eq:lanczos_approximation">
+```math
+\Gamma ( n ) = \frac{(n+g-0.5)^{n-0.5}}{e^{n+g-0.5}} L_g(n)
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\Gamma ( n ) = \frac{(n+g-0.5)^{n-0.5}}{e^{n+g-0.5}} L_g(n)" data-equation="eq:lanczos_approximation">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@bb29798906e119fcb2af99e94b60407a270c9b32/lib/node_modules/@stdlib/math/base/special/gamma-lanczos-sum/docs/img/equation_lanczos_approximation.svg" alt="Lanczos approximation for gamma function.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -43,14 +47,30 @@ where `g` is an [arbitrary constant][@stdlib/constants/float64/gamma-lanczos-g] 
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-gamma-lanczos-sum
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import gammaLanczosSum from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gamma-lanczos-sum@deno/mod.js';
+var gammaLanczosSum = require( '@stdlib/math-base-special-gamma-lanczos-sum' );
 ```
 
 #### gammaLanczosSum( x )
@@ -88,8 +108,8 @@ v = gammaLanczosSum( NaN );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import gammaLanczosSum from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gamma-lanczos-sum@deno/mod.js';
+var linspace = require( '@stdlib/array-base-linspace' );
+var gammaLanczosSum = require( '@stdlib/math-base-special-gamma-lanczos-sum' );
 
 var x = linspace( -10.0, 10.0, 100 );
 
@@ -127,7 +147,7 @@ for ( i = 0; i < x.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -136,11 +156,6 @@ For more information on the project, filing bug reports and feature requests, an
 [![Chat][chat-image]][chat-url]
 
 ---
-
-## License
-
-See [LICENSE][stdlib-license].
-
 
 ## Copyright
 
@@ -171,7 +186,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -185,9 +200,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/math-base-special-gamma-lanczos-sum/tree/esm
 [branches-url]: https://github.com/stdlib-js/math-base-special-gamma-lanczos-sum/blob/main/branches.md
 
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-gamma-lanczos-sum/main/LICENSE
-
-[@stdlib/constants/float64/gamma-lanczos-g]: https://github.com/stdlib-js/constants-float64-gamma-lanczos-g/tree/deno
+[@stdlib/constants/float64/gamma-lanczos-g]: https://github.com/stdlib-js/constants-float64-gamma-lanczos-g
 
 [gamma-function]: https://en.wikipedia.org/wiki/Gamma_function
 
@@ -195,9 +208,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma/tree/deno
+[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma
 
-[@stdlib/math/base/special/gamma-lanczos-sum-expg-scaled]: https://github.com/stdlib-js/math-base-special-gamma-lanczos-sum-expg-scaled/tree/deno
+[@stdlib/math/base/special/gamma-lanczos-sum-expg-scaled]: https://github.com/stdlib-js/math-base-special-gamma-lanczos-sum-expg-scaled
 
 <!-- </related-links> -->
 

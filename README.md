@@ -157,11 +157,6 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
-## License
-
-See [LICENSE][stdlib-license].
-
-
 ## Copyright
 
 Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
@@ -204,8 +199,6 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [umd-url]: https://github.com/stdlib-js/math-base-special-gamma-lanczos-sum/tree/umd
 [esm-url]: https://github.com/stdlib-js/math-base-special-gamma-lanczos-sum/tree/esm
 [branches-url]: https://github.com/stdlib-js/math-base-special-gamma-lanczos-sum/blob/main/branches.md
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-gamma-lanczos-sum/main/LICENSE
 
 [@stdlib/constants/float64/gamma-lanczos-g]: https://github.com/stdlib-js/constants-float64-gamma-lanczos-g
 

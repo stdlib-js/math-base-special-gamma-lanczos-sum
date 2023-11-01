@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,51 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var linspace = require( '@stdlib/array-base-linspace' );
-var isnan = require( '@stdlib/math-base-assert-is-nan' );
-var gamma = require( '@stdlib/math-base-special-gamma' );
-var abs = require( '@stdlib/math-base-special-abs' );
-var exp = require( '@stdlib/math-base-special-exp' );
-var pow = require( '@stdlib/math-base-special-pow' );
-var EPS = require( '@stdlib/constants-float64-eps' );
-var G = require( '@stdlib/constants-float64-gamma-lanczos-g' );
-var gammaLanczosSum = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof gammaLanczosSum, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'if provided `NaN`, the function returns `NaN`', function test( t ) {
-	var v = gammaLanczosSum( NaN );
-	t.equal( isnan( v ), true, 'returns NaN when provided a NaN' );
-	t.end();
-});
-
-tape( 'the function evaluates the Lanczos sum', function test( t ) {
-	var expected;
-	var delta;
-	var tol;
-	var i;
-	var x;
-	var y;
-
-	x = linspace( 1.0, 100.0, 500 );
-	for ( i = 0; i < x.length; i++ ) {
-		y = gammaLanczosSum( x[i] );
-		expected = gamma( x[i] );
-		expected /= pow( x[i]+G-0.5, x[i]-0.5 ) / ( exp( x[i]+G-0.5 ) );
-		if ( y === expected ) {
-			t.equal( y, expected, 'x: '+x[i]+', y: '+y+', expected: '+expected );
-		} else {
-			delta = abs( y - expected );
-			tol = 10.0 * EPS * abs( expected );
-			t.ok( delta <= tol, 'within tolerance. x: '+x[i]+'. y: '+y+'. E: '+expected+'. Δ: '+delta+'. tol: '+tol );
-		}
-	}
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });

@@ -40,7 +40,7 @@
   "dependencies": {},
   "devDependencies": {
     "@stdlib/array-base-linspace": "^0.1.0",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/constants-float64-eps": "^0.1.1",
     "@stdlib/constants-float64-gamma-lanczos-g": "^0.1.1",
     "@stdlib/fs-write-file": "^0.1.1",

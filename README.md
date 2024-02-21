@@ -65,7 +65,7 @@ where `g` is an [arbitrary constant][@stdlib/constants/float64/gamma-lanczos-g] 
 ## Usage
 
 ```javascript
-import gammaLanczosSum from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gamma-lanczos-sum@esm/index.mjs';
+import gammaLanczosSum from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gamma-lanczos-sum@v0.2.1-esm/index.mjs';
 ```
 
 #### gammaLanczosSum( x )
@@ -109,7 +109,7 @@ v = gammaLanczosSum( NaN );
 <script type="module">
 
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import gammaLanczosSum from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gamma-lanczos-sum@esm/index.mjs';
+import gammaLanczosSum from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gamma-lanczos-sum@v0.2.1-esm/index.mjs';
 
 var x = linspace( -10.0, 10.0, 100 );
 

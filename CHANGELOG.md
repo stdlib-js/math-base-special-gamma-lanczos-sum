@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2024-07-13)
+## 0.3.0 (2024-07-27)
 
 <section class="features">
 
@@ -36,7 +36,7 @@ This release closes the following issue:
 
 -   [`53eb98c`](https://github.com/stdlib-js/stdlib/commit/53eb98c30fe092a4871e92001be36318626fd68f) - **docs:** fix function name [(#2579)](https://github.com/stdlib-js/stdlib/pull/2579) _(by Gunj Joshi)_
 -   [`2789eff`](https://github.com/stdlib-js/stdlib/commit/2789eff674a6832e11cb4ec0f8f4090bf05554b2) - **docs:** fix function name in README example [(#2506)](https://github.com/stdlib-js/stdlib/pull/2506) _(by Gunj Joshi)_
--   [`f36cfab`](https://github.com/stdlib-js/stdlib/commit/f36cfab3875404fd9c58b6e2a6fedca5e04cb4d9) - **chore:** update package meta data [(##2014)](#2014) _(by stdlib-bot)_
+-   [`f36cfab`](https://github.com/stdlib-js/stdlib/commit/f36cfab3875404fd9c58b6e2a6fedca5e04cb4d9) - **chore:** update package meta data [(#2014)](https://github.com/stdlib-js/stdlib/pull/2014) _(by stdlib-bot)_
 -   [`5c8ab25`](https://github.com/stdlib-js/stdlib/commit/5c8ab250e07d8f3cf603522c1d354a2f983e354b) - **feat:** add C implementation for `math/base/special/gamma-lanczos-sum` [(#1834)](https://github.com/stdlib-js/stdlib/pull/1834) _(by Gunj Joshi, Athan Reines)_
 
 </details>
@@ -65,6 +65,36 @@ A total of 2 people contributed to this release. Thank you to the following cont
 <section class="release" id="v0.2.1">
 
 ## 0.2.1 (2024-02-21)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.2.0">
+
+## 0.2.0 (2024-02-14)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.1">
+
+## 0.1.1 (2023-10-03)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.0">
+
+## 0.1.0 (2023-09-22)
 
 <section class="features">
 
@@ -117,6 +147,76 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.7">
+
+## 0.0.7 (2022-02-16)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.6">
+
+## 0.0.6 (2021-08-22)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.5">
+
+## 0.0.5 (2021-07-06)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.4">
+
+## 0.0.4 (2021-06-27)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.3">
+
+## 0.0.3 (2021-06-16)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.2">
+
+## 0.0.2 (2021-06-15)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.1">
+
+## 0.0.1 (2021-06-14)
+
+No changes reported for this release.
 
 </section>
 

@@ -47,6 +47,7 @@
   },
   "devDependencies": {
     "@stdlib/array-base-linspace": "^0.2.2",
+    "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
     "@stdlib/constants-float64-eps": "^0.2.2",
     "@stdlib/constants-float64-gamma-lanczos-g": "^0.2.2",
     "@stdlib/fs-read-file": "^0.2.2",

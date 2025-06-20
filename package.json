@@ -41,7 +41,6 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/constants-float64-pinf": "^0.2.2",
     "@stdlib/math-base-napi-unary": "^0.2.3",
     "@stdlib/utils-library-manifest": "^0.2.2"
   },

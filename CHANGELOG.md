@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-10-01)
+## Unreleased (2025-10-02)
 
 <section class="bug-fixes">
 
@@ -16,12 +16,23 @@
 
 <!-- /.bug-fixes -->
 
+<section class="reverts">
+
+### Reverts
+
+-   [`4a75f6d`](https://github.com/stdlib-js/stdlib/commit/4a75f6df054e6d718e40a37737938996ddd43006) - undo commits adding tests for full code coverage
+
+</section>
+
+<!-- /.reverts -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`4a75f6d`](https://github.com/stdlib-js/stdlib/commit/4a75f6df054e6d718e40a37737938996ddd43006) - **revert:** undo commits adding tests for full code coverage _(by Philipp Burckhardt)_
 -   [`52e5b8b`](https://github.com/stdlib-js/stdlib/commit/52e5b8b77789e7056e1cd2d44107a7cc0e893ee9) - **test:** add tests to achieve full coverage in `gamma-lanczos-sum`, `gamma-lanczos-sum-expg-scaled`, and `gamma-lanczos-sum-expg-scaledf` _(by Philipp Burckhardt)_
 -   [`484e565`](https://github.com/stdlib-js/stdlib/commit/484e56596656a4c5faaea74260a444eb582bd019) - **fix:** remove unused `pinf` dependency from `gamma-lanczos-sum` manifest _(by Philipp Burckhardt)_
 -   [`cae9a13`](https://github.com/stdlib-js/stdlib/commit/cae9a136511539fae4e92823d912e27dfbedfe6d) - **docs:** replace manual `for` loop in examples [(#6635)](https://github.com/stdlib-js/stdlib/pull/6635) _(by Harsh)_

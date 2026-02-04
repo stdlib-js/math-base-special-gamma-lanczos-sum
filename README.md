@@ -67,7 +67,7 @@ where `g` is an [arbitrary constant][@stdlib/constants/float64/gamma-lanczos-g] 
 To use in Observable,
 
 ```javascript
-gammaLanczosSum = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gamma-lanczos-sum@umd/browser.js' )
+gammaLanczosSum = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gamma-lanczos-sum@v0.3.2-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -79,7 +79,7 @@ var gammaLanczosSum = require( 'path/to/vendor/umd/math-base-special-gamma-lancz
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gamma-lanczos-sum@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gamma-lanczos-sum@v0.3.2-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -132,7 +132,7 @@ v = gammaLanczosSum( NaN );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gamma-lanczos-sum@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gamma-lanczos-sum@v0.3.2-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 

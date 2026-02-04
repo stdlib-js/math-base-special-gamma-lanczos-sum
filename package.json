@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-gamma-lanczos-sum",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Calculate the Lanczos sum for the approximation of the gamma function.",
   "license": "Apache-2.0 AND BSL-1.0",
   "author": {
@@ -41,12 +41,12 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-base-napi-unary": "^0.2.4",
+    "@stdlib/math-base-napi-unary": "^0.2.6",
     "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/array-base-linspace": "^0.2.2",
-    "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
+    "@stdlib/console-log-each-map": "^0.1.0",
     "@stdlib/constants-float64-eps": "^0.2.2",
     "@stdlib/constants-float64-gamma-lanczos-g": "^0.2.2",
     "@stdlib/fs-read-file": "^0.2.2",
@@ -57,9 +57,9 @@
     "@stdlib/math-base-special-gamma": "^0.3.0",
     "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/math-base-tools-evalrational-compile": "^0.3.0",
-    "@stdlib/math-base-tools-evalrational-compile-c": "^0.2.1",
+    "@stdlib/math-base-tools-evalrational-compile-c": "^0.2.2",
     "@stdlib/random-array-uniform": "^0.2.1",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/string-format": "^0.2.3",
     "@stdlib/string-substring-after": "^0.2.2",
     "@stdlib/string-substring-before": "^0.2.2",
     "@stdlib/time-current-year": "^0.2.2",
